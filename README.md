@@ -5,7 +5,7 @@ Update the android sdk with the specified filter (required parameter).
 
 # What's new
 
--
+- easy update the android sdk
 
 # Options
 
@@ -44,6 +44,10 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.2-rc3
+
+- fix: environment variable updated $ANDROID_UPDATE_FILTER
 
 ## 0.0.2-rc2
 
