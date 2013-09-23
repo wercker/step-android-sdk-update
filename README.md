@@ -5,7 +5,7 @@ Update the android sdk with the specified filter (required parameter).
 
 # What's new
 
-- 
+-
 
 # Options
 
@@ -45,14 +45,21 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.2-rc1
+
+- fix: fi forgotten
+
 ## 0.0.2-beta
 
 - fix: FILTER parameter is now correctly handled
+- *broken* : gives an error on missing fi.
 
 ## 0.0.2-alpha2
 
 - `#!/usr/bin/expect` added to the expect script
 - *broken* : installs all android packages.
+- *broken* : also gives an error on missing fi.
+
 
 ## 0.0.2-alpha
 

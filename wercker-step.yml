@@ -1,5 +1,5 @@
 name: android-sdk-update
-version: 0.0.2-beta
+version: 0.0.2-rc1
 description: run android sdk update
 keywords:
   - android
