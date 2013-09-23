@@ -45,6 +45,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+
+#@ 0.0.2-alpha2
+
+- `#!/usr/bin/expect` added to the expect script
 ## 0.0.2-alpha
 
 - WERCKER_STEP_ROOT added as a fix for not found error.
