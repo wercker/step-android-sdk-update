@@ -45,6 +45,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.2
+
+- removed ":" from environment variable
+
 ## 0.0.2-rc4
 - fix: update environment variable with correct info
 
