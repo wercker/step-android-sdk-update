@@ -2,6 +2,9 @@
 
 Update the android sdk with the specified filter (required parameter).
 
+This step is tested in conbination with the wercker/android box. It also updates the
+ANDROID_UPDATE_FILTER environment variable with filter items specified (appending them)
+
 
 # What's new
 
@@ -16,7 +19,7 @@ Update the android sdk with the specified filter (required parameter).
 ```yaml
 build:
   steps:
-    - flenter/android-sdk-update:
+    - android-sdk-update:
         filter: sysimg-18
 ```
 
@@ -47,41 +50,4 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## 0.0.2
 
-- removed ":" from environment variable
-
-## 0.0.2-rc4
-- fix: update environment variable with correct info
-
-## 0.0.2-rc3
-
-- fix: environment variable updated $ANDROID_UPDATE_FILTER
-
-## 0.0.2-rc2
-
-- fix: forgot to add then
-
-## 0.0.2-rc1
-
-- fix: fi forgotten
-- *broken* : gives an error because of missing then
-
-## 0.0.2-beta
-
-- fix: FILTER parameter is now correctly handled
-- *broken* : gives an error on missing fi.
-
-## 0.0.2-alpha2
-
-- `#!/usr/bin/expect` added to the expect script
-- *broken* : installs all android packages.
-- *broken* : also gives an error on missing fi.
-
-
-## 0.0.2-alpha
-
-- WERCKER_STEP_ROOT added as a fix for not found error.
-- *broken*
-
-## 0.0.1
-
-- initial release *broken*
+- initial release on app.wercker.com
