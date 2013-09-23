@@ -5,7 +5,7 @@ Update the android sdk with the specified filter (required parameter).
 
 # What's new
 
-- easy updating of the android sdk.
+- fix: WERCKER_STEP_ROOT added to prevent android-update.exp not found
 
 # Options
 
@@ -45,6 +45,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.2-alpha
+
+- WERCKER_STEP_ROOT added as a fix for not found error.
+
 ## 0.0.1
 
-- initial release
+- initial release *broken*
