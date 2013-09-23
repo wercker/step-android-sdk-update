@@ -19,7 +19,8 @@ else
     info 'expect is available, and will not be installed by this step'
 fi
 
-$WERCKER_STEP_ROOT/android-update.exp $WERCKER_ANDROID_SDK_UPDATE
+
+$WERCKER_STEP_ROOT/android-update.exp $WERCKER_ANDROID_SDK_UPDATE_FILTER
 
 if [ ! -n "$ANDROID_UPDATE_FILTER"];
     export ANDROID_UPDATE_FILTER=$WERCKER_ANDROID_SDK_UPDATE

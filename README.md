@@ -5,7 +5,7 @@ Update the android sdk with the specified filter (required parameter).
 
 # What's new
 
-- fix: WERCKER_STEP_ROOT added to prevent android-update.exp not found
+- 
 
 # Options
 
@@ -45,13 +45,19 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.2-beta
 
-#@ 0.0.2-alpha2
+- fix: FILTER parameter is now correctly handled
+
+## 0.0.2-alpha2
 
 - `#!/usr/bin/expect` added to the expect script
+- *broken* : installs all android packages.
+
 ## 0.0.2-alpha
 
 - WERCKER_STEP_ROOT added as a fix for not found error.
+- *broken*
 
 ## 0.0.1
 
