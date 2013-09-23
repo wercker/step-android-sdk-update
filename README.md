@@ -45,6 +45,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.2-rc4
+- fix: update environment variable with correct info
+
 ## 0.0.2-rc3
 
 - fix: environment variable updated $ANDROID_UPDATE_FILTER
