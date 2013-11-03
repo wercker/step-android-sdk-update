@@ -48,6 +48,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.9
+
+- go to $ANDROID_HOME locaiton
+
 ## 0.0.2
 
 - initial release on app.wercker.com
