@@ -48,6 +48,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.10
+- all option added (for support of older packages)
+
 ## 0.0.9
 
 - go to $ANDROID_HOME locaiton
