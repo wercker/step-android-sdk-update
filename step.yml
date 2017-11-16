@@ -1,0 +1,11 @@
+name: android-sdk-update
+version: 1.0.0
+summary: run android sdk update
+tags:
+  - android
+  - sdk
+  - wercker/android
+properties:
+- name: filter
+  type: string
+  required: true
